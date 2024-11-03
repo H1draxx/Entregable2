@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deltron Perú</title>
+    <link rel="stylesheet" href="newstyles.css"> 
+    <style>
+        .social-media {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .social-media a {
+            margin: 0 10px;
+        }
+
+        .social-media img {
+            width: 64px; /* Ajusta el tamaño según tu preferencia */
+            height: 64px; /* Ajusta el tamaño según tu preferencia */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            position: relative; /* Para que el footer no ocupe toda la pantalla */
+            bottom: 0;
+            width: 100%;
+            /* height: 60px;  No es necesario, ya que el footer se ajusta al contenido */
+        }
+
+        .product-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .product-item img {
+            width: 200px; /* Ajusta el tamaño según tu preferencia */
+            height: 150px; /* Ajusta el tamaño según tu preferencia */
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Deltron Perú</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="formulario2.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Bienvenidos a Deltron Perú</h2>
+            <p>Somos una empresa líder en la distribución de productos electrónicos de alta calidad. Ofrecemos una amplia gama de productos para satisfacer las necesidades de nuestros clientes.</p>
+        </section>
+
+        <section>
+            <h2>Nuestros Productos</h2>
+            <div class="product-item">
+                <a href="https://www.kabifperu.com/producto/laptop-asus-gl704g-i7-8750h-gl704gw-ev057t-gaming-17-i7-512sdd-16gb-rtx-2070-8g-w10-mochila-mouse/" target="_blank"> <img src="laptop.jfif" alt="Laptop">
+                <p>Laptop Asus Gl704g I7 8750h ( Gl704gw-Ev057t ) Gaming | 17" / I7 / 512sdd / 16gb / Rtx 2070 8g /</p>
+                </a>
+            </div>
+            <div class="product-item">
+                <a href="https://www.oechsle.pe/celular-samsung-galaxy-a55-5g-256gb-8gb-ram-negro-1000838511/p" target="_blank"> <img src="smartphone.png" alt="Smartphone">
+                <p>Celular Samsung Galaxy A55 5G 256GB 8GB RAM Negro</p>
+                </a>
+            </div>
+            <div class="product-item">
+                <a href="https://www.oechsle.pe/televisor-samsung-smart-tv-5-crystal-uhd-4k-un55au8000gxpe-1000347598/p" target="_blank"> <img src="televisor.jpg" alt="Televisor">
+                <p>Televisor Samsung Smart TV 55</p>
+                </a>
+            </div>
+            <div class="product-item">
+                <a href="https://www.mercadolibre.com.pe/teclado-gamer-hyperx-alloy-origins-65-qwerty-hyperx-tactile-aqua-ingles-us-color-negro-con-luz-rgb/p/MPE19136332" target="_blank"> <img src="teclado.jpg" alt="Teclado">
+                <p>TECLADO GAMER MECANICO TG600 RGB SWITCH GATERON RED KGTG600PTVR PRETO - KBM</p>
+                </a>
+            </div>
+            <div class="product-item">
+                <a href="https://www.macrotel.com.pe/shop/ph393-headphone-bt-flow-pulse-negro-4036" target="_blank"> <img src="headphones.jfif" alt="Auriculares">
+                <p>HEADPHONE BT FLOW PULSE NEGRO</p>
+                </a>
+            </div>
+            <div class="product-item">
+                <a href="https://upstec.pe/tienda/ups/interactivos/apc/easy-ups-apc-2/" target="_blank"> <img src="ups.jpg" alt="UPS">
+                <p>Easy UPS 900VA | UPSTEC</p>
+                </a>
+            </div>
+        </section>
+
+        <section>
+            <h2>Servicios</h2>
+            <p>Ofrecemos una variedad de servicios para asegurar la satisfacción de nuestros clientes, incluyendo:</p>
+            <ul>
+                <li>Servicio técnico</li>
+                <li>Instalación</li>
+                <li>Mantenimiento</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contáctanos</h2>
+            <p>Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos:</p>
+            <p>Teléfono: +51 1 234 5678</p>
+            <p>Email: info@deltron.com.pe</p>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Deltron Perú. Todos los derechos reservados.</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/" target="_blank"><img src="fb.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="ig.jpg" alt="Instagram"></a>
+            <a href="https://x.com/home" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+            <a href="https://web.telegram.org/k/" target="_blank"><img src="telegram.jpeg" alt="Telegram"></a>
+        </div>
+    </footer>
+</body>
+</html>
